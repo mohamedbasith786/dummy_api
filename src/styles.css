@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+.buttonsdiv{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+}
+.buttonget{
+    background-color: blue;
+    color: white;
+    border-radius:5px;
+    margin: 20px;
+    height: 30px;
+}
+.buttonclear{
+    background-color: red;
+    color: white;
+    border-radius:5px;
+    margin: 20px;
+    height: 30px;
+}
+.tablediv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading{
+   display: flex;
+   justify-content:space-around;
+   align-self:center;
+   border-width: 1px;
+   border-style: solid;
+}
+.headings{
+   display: flex;
+   justify-content:space-around;
+   align-self:center;
+   border-width: 1px;
+   border-style: solid;
+}
+.items{
+    display: flex;
+   justify-content:space-around;
+   align-self:center;
+}
+.itemsid{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+}

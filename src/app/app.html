@@ -1,0 +1,21 @@
+<div class="buttonsdiv">
+  <button (click)="getdata()" class="buttonget">GET DATA</button>
+  <button (click)="cleardata()" class="buttonclear">CLEAR DATA</button>
+</div>
+
+<div class="heading">
+    <h1 class="">ID</h1>
+    <h1 class="">Name</h1>
+    <h1 class="">E-maile</h1>
+  
+  </div>
+ <div *ngFor="let item of userdata" >
+  <div class="headings">
+    <h1 class="itemsid">{{item.id}}</h1>
+    <h1 class="item">{{item.name}}</h1>
+    <h1 class="item">{{item.email}}</h1>
+  </div>
+</div>
+
+
+<router-outlet></router-outlet>
