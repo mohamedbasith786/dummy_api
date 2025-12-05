@@ -1,0 +1,67 @@
+// You can add global styles to this file, and also import other style files
+$primary-color:#3174df;
+$secondary-color:#404dff59;
+
+$remove-button-color:#ff3a3a;
+
+.button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button1{
+    background-color:$primary-color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    font-family: "Roboto";
+    margin: 20px;
+}
+.button2{
+    background-color:$remove-button-color;
+    color:white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    font-family: "Roboto";
+    margin: 20px;
+}
+
+
+.heading{
+    background-color: $primary-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+   font-family: "Roboto", sans-serif;
+   border-width: 2px;
+   border-style: solid;
+   border-color: black;
+   border-radius: 10px;
+}
+.item_div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: $secondary-color;
+    border-radius: 10px;
+}

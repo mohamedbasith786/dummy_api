@@ -17,9 +17,9 @@ interface Comment {
   selector: 'app-root',
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrls: ['./app.scss']
 })
-export class App implements OnInit {
+export class App  {
 
   userdata:  Comment[] = []
 
